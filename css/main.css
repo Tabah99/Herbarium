@@ -1,0 +1,297 @@
+/* ------------------------------------------------------------------------------
+ 	Developed by Tabah Junaid Shah
+/* 
+-------------------------------------------------------------------------------*/
+
+
+/* ============================================°°°°°°°°°°°°°°°°°°°°°°°°°°======================================================= */
+/*                                                       Footer                                                                  */
+/* ============================================°°°°°°°°°°°°°°°°°°°°°°°°°°======================================================= */
+
+
+.footer{
+	padding-top: 15px;
+	background-image:linear-gradient(#1aad77,#14875d,#12704e, #0c5238,#092e20 );
+	margin: 0;
+}
+
+.footer .about img{
+	width: 40px;
+}
+.footer h3{
+	font-size: 20px;
+	font-weight: bold;
+	font-family: serif;
+}
+.footer .line{
+	width: 70px;
+	height: 1px;
+	background-color: white;
+	margin-top: -5px;
+	margin-bottom: 10px;
+}
+.footer p{
+	font-size: 13.5px;
+	font-family: serif;
+}
+.footer .help a{
+font-family: serif;
+}
+.footer .contact i{
+	font-size: 15;
+	font-weight: 900;
+	color: black;
+	margin-top: 8px;
+}
+
+.footer .contact span{
+	margin-left: 10px;
+	font-size: 13.5px;
+	color: black;
+	font-family: serif;
+	margin-top: 8px;
+}
+.footer .contact .sm{
+	color: white;
+	background-color: black;
+	padding: 10px;
+	padding-left: 12px;
+	padding-right: 12px;
+	border-radius: 90px;
+	box-shadow: 1px 1px 9px black;
+	font-weight: 700;
+	text-align: center;
+	margin: 5px;
+}
+footer .Copyright p{
+	text-align: center;
+	font-size: 12px;
+	font-family: serif;
+} 
+.footer .helpus .help ul{
+	padding-left: 0;
+}
+.footer .helpus .help ul li{
+	text-decoration: none;
+	list-style: none;
+	display: block;
+}
+.footer .helpus .help ul li a{
+	color: black;
+	font-size: 13px;
+}
+.footer .helpus .help ul li a:hover{
+	color: white;
+}
+.footer hr{
+	color: white;
+	background-color: white;
+}
+.footer .copy{
+	text-align: center;
+	font-size: 13px;
+	font-family: serif;
+	padding-bottom: 15px;
+	color: white;
+}
+
+
+
+html{scroll-behavior: smooth;}
+#navbar{
+	background-image: linear-gradient(#1aad77,#14875d,#12704e, #0c5238,#092e20 );
+		transition: 0.4s;
+		position: fixed; 
+}
+
+.navbar img{
+	width: 250px;
+	margin-top: 9px;
+}
+	.navbar ul li a{
+		font-size: 15px;
+		font-family: serif;
+		margin-left: 35px;
+		color: white;
+	}
+	.navbar ul li a:focus{
+		color: #e3ce44 !important;
+		text-decoration: none;
+		font-family: serif;
+		font-size: 15px;
+	}
+	.navbar .logo{
+		font-family: 'Dancing Script', cursive;
+		font-size: 25px;
+		font-weight: 900;
+		color: white;
+	}
+
+	
+	.main-image{
+		background-image: url(../images/bg3.jpg);
+width: 100%;
+height: 573px;
+background-attachment: fixed;
+background-size: cover;
+}
+.main-image .img-content {
+		position: absolute;
+		top: 50%;
+		left: 10%;
+		transform: translate((-50% , -50%));
+		
+}
+.main-image .img-content p{
+font-size:12px;
+font-weight: 900;
+}
+.main-image .img-content h2{
+font-size:45px;
+font-weight: 900;
+}
+.main-image .img-content button, .about-me button{
+border-radius: 60px;
+padding-left:20px ;
+padding-right:20px ;
+padding-top: 7px;
+padding-bottom: 7px;
+font-size: 12px;
+letter-spacing: 1px;
+font-weight: 500;
+}
+
+
+  /* <!---=======about me=======--> */
+.about-me h1 , .category h1,  .gallery h1 ,.contact-us h1 {
+	font-weight: 700;
+	font-size:35px;
+	color: black;
+}
+.about-me img , .category img ,.gallery img , .contact-us img{
+	
+	position: relative;
+	bottom: 10px;
+}
+.about-me p , .notbold , .my-services {
+	font-size:15px;
+	color: #6c6b6e;
+	font-family: serif;
+	margin-top: 1px;
+	line-height: 2;
+}
+
+
+.about-me .aboutImg .myimg{
+	width: 240px;
+	border-radius: 8px;
+	box-shadow: 5px 5px 10px lightgrey;
+	position: relative;;
+	right: 220px;
+	bottom: 32px;
+}
+.about-me .aboutImg .imgborder{
+		padding: 122px;
+		border: 5px solid #ebbf13;
+	box-shadow: 5px 5px 10px lightgrey inset,
+	-5px -5px 10px lightgrey inset;
+	border-radius: 9px;
+}
+.about-me .bold{
+	font-weight: 600;
+	color: #454545;
+}
+.about-me .me span{
+	line-height: 3;
+}.about-me .aboutme-content{
+	padding: 30px;
+	margin-top: -25px;
+}
+
+/* <!---=======about me ends=======--> */
+
+
+
+
+.category .card .card-body{
+	background-color: #f0ca71;
+}
+.category  .card .card-type{
+background-color: #f0ca71;
+position: absolute;
+top: 10%;
+left: 18%;
+transform: translate(-50% , -50%);
+border: none;
+border-radius: 60px;
+padding: 7px;
+font-size:11px;
+font-weight: 700;
+color: black;
+width: 30%;
+}
+
+.category .card .card-body .card-heading{
+	font-family: 'serif';
+	font-size:13px;
+	font-weight: 700;
+	font-family: serif;
+}
+.category .card .card-body .card-text{
+	color: #f0f0f0;
+font-family: 'serif';
+font-size:13px;
+font-weight: 400;
+}
+
+
+
+
+
+.gallery .modimg{
+	border: 4px solid #f0ca71;
+	padding: 0;
+}
+
+
+
+
+
+/* contact us  */
+.contact-us .container{
+	box-shadow: 5px 5px 5px 0 lightgrey;
+	padding: 50px;
+	text-align:center;
+	border-radius: 10px;
+}
+.contact-us .heading{
+	text-align:center;
+	letter-spacing: 3px;
+}
+.contact-us input , textarea{
+	width: 90%;
+	margin: 5px;
+	border: none;
+	border-bottom:2px solid #f2bd5a;
+	border-radius: 2px;
+	padding: 10px;
+	
+}
+.contact-us input::placeholder , textarea::placeholder{
+font-size: 13px;
+opacity: 0.7;
+}
+.contact-us input:focus , textarea:focus{
+outline: none;
+}
+
+
+
+/* body
+{
+	overflow-x: hidden;
+}
+*{
+	overflow-x: hidden;
+}
+	 */
